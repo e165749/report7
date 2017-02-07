@@ -5,9 +5,11 @@ package jp.ac.uryukyu.ie.e165749;
  */
 
 //import javax.microedition.lcdui.*;
-import java.applet.Applet;
+//import java.applet.Applet;
 import java.awt.Graphics;
 import java.awt.Color;
+//import java.awt.*;//FrameやCanvasを使うのに必要なimport文
+//import java.awt.event.*;//FrameやCanvasのイベント処理に必要
 
 public class DrawField extends Field2 {
     public Graphics field_g;
@@ -54,10 +56,12 @@ public class DrawField extends Field2 {
           //  g.setColor(0x00ff0000);
             //g.drawArc(x, y, w, h, 0, 360);
             //g.setColor(0x00000000);
-        } //else if (type == EXIT) {
+        //} //else if (type == EXIT) {
            // g.setColor(0x000000ff);
             //g.fillArc(x, y, w, h, 0, 360);
             //g.setColor(0x00000000);
         //}
     }
 }
+
+//フィールドの基本データ
