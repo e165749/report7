@@ -17,3 +17,5 @@ public class Field2 extends Field {
         };
     }
 }
+
+//どこに壁があるかを指定する
