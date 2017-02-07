@@ -2,15 +2,13 @@ package jp.ac.uryukyu.ie.e165749;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 /**
  * Created by South on 2017/02/07.
  */
-public class DrawCanvasTest {
+public class DisplayFieldTest {
     @Test
-    public void main() throws Exception {
-
+    public void startApp() throws Exception {
+//ちゃんと実行できるか
     }
 
 }
